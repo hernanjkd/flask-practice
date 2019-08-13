@@ -23,7 +23,8 @@ def handle_invalid_usage(error):
 
 @app.route('/')
 def sitemap():
-    return generate_sitemap(app)
+    return {"one":1,"name":"Hernan","age":15,"id":0}
+
 
 @app.route('/person', methods=['POST', 'GET'])
 def handle_person():

@@ -4,7 +4,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-eralchemy = "*"
 
 [packages]
 flask = "*"
@@ -19,7 +18,7 @@ mysqlclient = "*"
 gunicorn = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7.2"
 
 [scripts]
 start="flask run -p 3000"
