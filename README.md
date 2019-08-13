@@ -1,6 +1,14 @@
-# Flask Boilerplate 4Geeks Academy
+# Flask Boilerplate for profesional development
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/flask-rest-hello.git)
+
+## Features
+
+- Extensive documentation [here](https://github.com/4GeeksAcademy/flask-rest-hello/tree/master/docs).
+- Integrated with Pipenv for package managing.
+- Fast deloyment to heroku with `$ pipenv run deploy`.
+- Use of `.env` file.
+- SQLAlchemy integration for database abstraction.
 
 ## How to stat the project?
 
@@ -21,9 +29,9 @@ $ pipenv run upgrade  (to update your databse with the migrations)
 ```
 
 
-## Instalation for ubuntu
+# Manual Instalation for Ubuntu & Mac
 
-1. Make sure you have python 3.6+
+⚠️ Make sure you have `python 3.6+` and `MySQL` installed on your computer and MySQL is running, then run the following commands:
 ```sh
 $ pipenv install (to install pip packages)
 $ pipenv run migrate (to create the database)
